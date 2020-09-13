@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00BCD4"
+      android:layout_margin="5dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_baseline_folder_24"
+        android:id="@+id/i"
+        />
+
+<TextView
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00BCD4"
+    android:minHeight="50dp"
+    android:text="text"
+    android:textSize="20sp"
+    android:layout_toRightOf="@id/i"
+    android:gravity="center"
+    android:textColor="#000"
+    android:id="@+id/listitemtext"
+    />
+
+</RelativeLayout>
